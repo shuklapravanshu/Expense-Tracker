@@ -1,0 +1,120 @@
+.wallet-card{
+    height: 181px;
+    width: 356px;
+    background-color: #9B9B9B;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgb(60, 60, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.wallet-card-text{
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}.add-btn{
+    width: 168px;
+    height:38px;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.addingAmount{
+    color: #9DFF5B;
+}
+#addingAmount{
+    background-image:linear-gradient(to right, #B5DC52, #89E148);
+}
+.expenseAmount{
+    color: #F4BB4A;
+}
+#expenseAmount{
+    background-image:linear-gradient(to right, #FF9595, #FF4747,#FF3838);
+}
+.add-balance{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+}
+.enter-value{
+    width: 217px;
+    height: 45PX;
+    border-radius: 15px;
+    border: none;
+}
+.add-balance-btn{
+    width: 142px;
+    height: 45PX;
+    border-radius: 15px;
+    border: none;
+    background-color: #F4BB4A;
+}
+.close-btn{
+    width: 115px;
+    height: 45PX;
+    border-radius: 15px;
+    border: none;
+    background-color: #E3E3E3;
+}
+.add-cancel-btns{
+    display: flex;
+    gap: 12px;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.expense-amount-card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+.expense-details-field{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EFEFEF;
+    padding: 20px;
+    border-radius: 8px;
+    width: 538px;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+@media screen and (max-width: 768px) {
+    .wallet-card {
+        height: 113px;
+        width: 214px;
+    }
+    .wallet-card-text {
+        font-size: 21px;
+        font-weight: 300;
+    }
+    .add-btn{
+        width: 142px;
+        height: 36px;
+    }
+    .modal{
+        width: auto;
+    }
+}

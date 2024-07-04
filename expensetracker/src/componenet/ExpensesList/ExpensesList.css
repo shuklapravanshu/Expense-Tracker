@@ -1,0 +1,26 @@
+.transaction-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expense-list-heading{
+    font-size: 29px;
+
+    font-weight: 700;
+    font-style: italic;
+    color: #FFFFFF;
+  }
+  .expenses-list{
+    width: 738px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    
+    box-shadow: 0 4px 4px #000000;
+    height: 345px;
+    padding:26px;
+  }
+  .expneses-transaction-topList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+  }
